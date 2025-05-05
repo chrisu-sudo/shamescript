@@ -1,6 +1,6 @@
-local mainGui = Instance.new("ScreenGui")
-mainGui.Name = "MainGui"
-mainGui.Parent = game:GetService("CoreGui") or game.Players.LocalPlayer:WaitForChild("PlayerGui")
+local assholefucker = Instance.new("ScreenGui")
+assholefucker.Name = "MainGui"
+assholefucker.Parent = game:GetService("CoreGui") or game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 local keybind = Instance.new("Frame")
 keybind.Name = "Keybind"
@@ -11,7 +11,7 @@ keybind.BorderMode = Enum.BorderMode.Outline
 keybind.BorderSizePixel = 1
 keybind.Position = UDim2.new(0.009, 0, 0.369, 0)
 keybind.Size = UDim2.new(0, 161, 0, 188)
-keybind.Parent = mainGui
+keybind.Parent = assholefucker
 
 local keybinddetail = Instance.new("Frame")
 keybinddetail.Name = "KeybindDetail"
@@ -44,7 +44,7 @@ watermark.BorderMode = Enum.BorderMode.Outline
 watermark.BorderSizePixel = 1
 watermark.Position = UDim2.new(0.009, 0, 0.94, 0)
 watermark.Size = UDim2.new(0, 200, 0, 29)
-watermark.Parent = mainGui
+watermark.Parent = assholefucker
 
 local shamewatermark = Instance.new("TextLabel")
 shamewatermark.Name = "ShameWatermark"
