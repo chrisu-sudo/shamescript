@@ -77,7 +77,7 @@ local keyloader, error = pcall(function()
             print("Key accepted!")
             task.wait(2)
             screenGui:Destroy()
-            loadstring(game:HttpGet("https://github.com/chrisu-sudo/shamescript/blob/main/main/shame.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/chrisu-sudo/shamescript/refs/heads/main/main/shame.lua"))()
         else
             warn("Invalid key!")
             textBox.Text = ""
